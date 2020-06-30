@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Prescription">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="150dp"
+        android:text="Medicine:"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/medicineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Medicine Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="40dp"
+        android:text="Dose:"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/prescriptionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Complete dose information for the medicine"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submitPresc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Prescribe" />
+
+    <Button
+        android:id="@+id/buttonEndSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit and Go Back" />
+</LinearLayout>
